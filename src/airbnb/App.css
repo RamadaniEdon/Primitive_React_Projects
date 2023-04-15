@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.nav {
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    width: 5rem;
+    padding: 1.2rem 1.9rem;
+}
+
+section {
+    padding: 36px;
+}
+
+.header {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px;
+
+}
+
+.header--img {
+    max-width: 700px;
+    align-self: center;
+
+}
+
+.header--title {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.header--desc {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 320px;
+    color: #222222;
+}
+
+/* Card css */
+.card{
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.card--img {
+    width: 100%;
+    max-width: 250px;
+}
+.card--availability {
+    display: inline-block;
+    font-size: 11px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 1;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 4px;
+    /* min-width: 50px; */
+    text-align: center;
+}
+.card * {
+    
+    font-size: 12px;
+    color: #222222;
+}
+.card--review {
+    margin-top: 9px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.card--star {
+    height: 12px;
+}
+.card--desc {
+    margin-top: 8px;
+}
+.gray *, .gray {
+    color: #918E9B !important
+}
+.card--price {
+    margin-top: 8px;
+    font-weight: bold;
+}
+.card--price--perwhat {
+    font-weight: normal;
+}
